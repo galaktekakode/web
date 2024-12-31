@@ -1,0 +1,49 @@
+/* Card.css */
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .dishes-list {
+    margin-bottom: 20px;
+  }
+  
+  .dish-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .add-dish-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-button, .delete-menu-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover, .delete-menu-button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-menu-button {
+    background-color: #ff6347;
+  }
+  
+  .delete-menu-button:hover {
+    background-color: #ff0000;
+  }
